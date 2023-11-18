@@ -1,39 +1,21 @@
 <template>
-    <div class="home">
-        <main>
-            <section class="introduction">
-                <h1>Hi, I am Saifuddin👋</h1>
-                <p>
-                    fueled by a passion for
-                    <span id="passion-span" class="passion-span">{{ currentPassion }}</span>
-                </p>
-                <p>
-                    <span class="proficiency-span">Vue.js</span> and
-                    <span class="proficiency-span">Python</span>—my go-to tools
-                    for turning ideas into reality!
-                </p>
-            </section>
-        </main>
-        <footer>
-            <div class="social-icons">
-                <a
-                    :href="'mailto:saifeesaifuddinq@gmail.com.com'"
-                    target="_blank"
-                >
-                    <img :src="images.gmail" alt="Gmail" />
-                </a>
-                <a :href="'https://github.com/SaifuddinSaifee'" target="_blank">
-                    <img :src="images.github" alt="GitHub" />
-                </a>
-                <a :href="'https://t.me/saifsaifee'" target="_blank">
-                    <img :src="images.telegram" alt="Telegram" />
-                </a>
-                <a :href="'https://twitter.com/SaifSaifee_dev'" target="_blank">
-                    <img :src="images.twitter" alt="Twitter" />
-                </a>
-            </div>
-        </footer>
-    </div>
+  <div class="home">
+    <main>
+      <section class="introduction">
+        <h1>Hi, I am Saifuddin👋</h1>
+        <p>
+          fueled by a passion for
+          <span id="passion-span" class="passion-span">{{ currentPassion }}</span>
+        </p>
+        <p>
+          <span class="proficiency-span">Vue.js</span> and
+          <span class="proficiency-span">Python</span>—my go-to tools
+          for turning ideas into reality!
+        </p>
+      </section>
+    </main>
+    <Footer/>
+  </div>
 </template>
 
 <script setup>
@@ -42,17 +24,17 @@ import gmailImage from "../assets/gmail.png";
 import githubImage from "../assets/github.png";
 import telegramImage from "../assets/telegram.png";
 import twitterImage from "../assets/twitter.png";
-import Navigation from '../components/Navigation.vue';
+import Footer from "../components/Footer.vue";
 </script>
 
 <script>
 export default {
   name: 'Home',
-  components: {
-    Navigation
-  },
   data() {
     return {
+      components: {
+        Footer
+      },
       images: {
         logo: logoImage,
         gmail: gmailImage,
