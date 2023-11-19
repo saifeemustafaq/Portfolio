@@ -1,8 +1,8 @@
 <template>
   <div class="home">
     <main>
-      <section class="introduction">
-        <h1>Hi, I am Saifuddin👋</h1>
+      <section class="introduction fade-in">
+        <a class="resume" target="_blank" href="https://drive.google.com/file/d/15yH82lqPq4HoGzPvZovInjxdESxumGOI/view"><h1>Hi, I am Saifuddin👋</h1></a>
         <p>
           fueled by a passion for
           <span id="passion-span" class="passion-span">{{ currentPassion }}</span>

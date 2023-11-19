@@ -1,7 +1,31 @@
-# Vue 3 + Vite
+## Portfolio Webpage
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is a portfolio webpage showcasing my projects and skills. It provides an overview of my experience, education, and contact information.
 
-## Recommended IDE Setup
+### Table of Contents
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- [Introduction](#introduction)
+- [Projects](#projects)
+- [Skills](#skills)
+- [Education](#education)
+- [Contact](#contact)
+
+### Introduction
+
+In the introduction section, I provide a brief overview of myself and my background. I highlight my main skills and areas of expertise.
+
+### Projects
+
+The projects section showcases some of the notable projects I have worked on. Each project is described briefly, highlighting the technologies used and the problem it solves.
+
+### Skills
+
+In the skills section, I list my technical skills and areas of expertise. This includes programming languages, frameworks, tools, and methodologies.
+
+### Education
+
+The education section provides information about my academic background. I list the degrees I have obtained, the institutions I attended, and any relevant certifications.
+
+### Contact
+
+In the contact section, I provide various ways to get in touch with me. This includes my email address, social media profiles, and a contact form.
