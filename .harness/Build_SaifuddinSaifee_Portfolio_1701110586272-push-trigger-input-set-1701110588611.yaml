@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_SaifuddinSaifee_Portfolio_1701110586272-push-trigger-input-set
+  identifier: Build_SaifuddinSaifee_Portfolio_1701110586272pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_SaifuddinSaifee_Portfolio_1701110586272
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
