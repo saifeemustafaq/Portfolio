@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_saifeemustafaq_Portfolio_1701268091893-push-trigger-input-set
+  identifier: Build_saifeemustafaq_Portfolio_1701268091893pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_saifeemustafaq_Portfolio_1701268091893
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
