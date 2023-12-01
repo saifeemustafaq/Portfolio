@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_saifeemustafaq_Portfolio_1701424228821-pr-trigger-input-set
+  identifier: Build_saifeemustafaq_Portfolio_1701424228821prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_saifeemustafaq_Portfolio_1701424228821
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
